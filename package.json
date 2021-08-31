@@ -9,7 +9,6 @@
 	},
 	"license": "GPL-3.0",
 	"private": true,
-
 	"homepage": "https://github.com/ExE-Boss/vscode-nunjucks#readme",
 	"repository": {
 		"type": "git",
@@ -18,7 +17,6 @@
 	"bugs": {
 		"url": "https://github.com/ExE-Boss/vscode-nunjucks/issues"
 	},
-
 	"engines": {
 		"vscode": "^1.30.0"
 	},
@@ -26,18 +24,27 @@
 		"Programming Languages"
 	],
 	"publisher": "exe-boss",
-
 	"contributes": {
-		"languages": [{
-			"id": "html-nunjucks",
-			"aliases": ["HTML (Nunjucks)", "html-nunjucks"],
-			"extensions": [".nunjucks", ".njk"],
-			"configuration": "./nunjucks.language-configuration.json"
-		}],
-		"grammars": [{
-			"language": "html-nunjucks",
-			"scopeName": "text.html.nunjucks",
-			"path": "./syntaxes/html-nunjucks.tmLanguage.json"
-		}]
+		"languages": [
+			{
+				"id": "nunjucks",
+				"aliases": [
+					"HTML (Nunjucks)",
+					"nunjucks"
+				],
+				"extensions": [
+					".nunjucks",
+					".njk"
+				],
+				"configuration": "./nunjucks.language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "nunjucks",
+				"scopeName": "text.html.nunjucks",
+				"path": "./syntaxes/html-nunjucks.tmLanguage.json"
+			}
+		]
 	}
 }

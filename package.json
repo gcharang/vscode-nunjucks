@@ -29,8 +29,8 @@
 			{
 				"id": "nunjucks",
 				"aliases": [
-					"HTML (Nunjucks)",
-					"nunjucks"
+					"nunjucks",
+					"HTML (Nunjucks)"
 				],
 				"extensions": [
 					".nunjucks",
@@ -43,7 +43,7 @@
 			{
 				"language": "nunjucks",
 				"scopeName": "text.html.nunjucks",
-				"path": "./syntaxes/html-nunjucks.tmLanguage.json"
+				"path": "./syntaxes/nunjucks.tmLanguage.json"
 			}
 		]
 	}
